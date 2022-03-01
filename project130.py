@@ -19,4 +19,8 @@ df = df.rename({
     "Star":"Name"
 },axis="columns")
 
+df.replace()
+
 print(list(df))
+
+df.to_csv('pro130.csv')
